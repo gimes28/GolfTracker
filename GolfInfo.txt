@@ -7,3 +7,9 @@ Name: Kenton County, Par: 72, Score: 110, Rating: 71.1, Slope: 134
 Name: Fox Praire, Par: 71, Score: 95, Rating: 71, Slope: 127
 Name: Stonelick, Par: 72, Score: 106, Rating: 72.7, Slope: 138
 Name: Blue Ash, Par: 72, Score: 104, Rating: 71, Slope: 129
+Name: Wood Wind, Par: 71, Score: 91, Rating: 68.5, Slope: 122
+Name: Wood Wind, Par: 71, Score: 88, Rating: 68.5, Slope: 122
+Name: Aston Oaks, Par: 72, Score: 110, Rating: 71.3, Slope: 130
+Name: The Vineyard, Par: 71, Score: 100, Rating: 70.2, Slope: 134
+Name: Stonelick, Par: 72, Score: 106, Rating: 72.7, Slope: 138
+Name: Sagamore, Par: 72, Score: 104, Rating: 69.7, Slope: 139
