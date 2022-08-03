@@ -82,13 +82,23 @@ int main() {
 		if (option == 1) {	// Display handicap
 			double handicap = 0;
 			int index = 0;
-			while (index < list.GetSize()) {
+			int numScoresCounted = 0;
+			if (list.GetSize() >= 20) {
+				numScoresCounted = 10;
+			}
+			else if (list.GetSize() < 20 && list.GetSize() >= 10) {
+				numScoresCounted = 3;
+			}
+			else{
+				numScoresCounted = 1;
+			}
+			while (index < numScoresCounted) {
 				DataClass* tempRound = new DataClass;
 				tempRound = list.SeeItem(index);
 				handicap += ScoreDifferential(tempRound->GetPlayerScore(), tempRound->GetCourseRating(), tempRound->GetCourseSlope());
 				index++;
 			}
-			cout << "\nHandicap: " << handicap / index << "\n";
+			cout << "\nHandicap: " << handicap / numScoresCounted * .96 << "\n";
 			cout << endl;
 		}
 		else if (option == 2) {	// Displays full list of data
